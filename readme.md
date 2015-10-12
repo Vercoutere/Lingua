@@ -18,9 +18,9 @@ composer require vercoutere/lingua
 Create a new instance.
 
 ```php
-require \Lingua\Lingua;
+use \Lingua\Language;
 
-$lingua = new Lingua;
+$lingua = new Language;
 ```
 
 Use the availlable functions.
