@@ -1,0 +1,23 @@
+{
+    "name": "vercoutere/lingua",
+    "type": "library",
+    "description": "Easily find (English or native) language names by their ISO 639-1 language code.",
+    "keywords": ["language", "locale", "ISO", "639-1"],
+    "license": "MIT",
+    "require-dev": {
+        "phpspec/phpspec": "^2.2@dev"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": { "Lingua\\": "src/Lingua/" }
+    },
+    "authors": [
+        {
+            "name": "Jonathan Vercoutere",
+            "email": "jonathan.vercoutere@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
