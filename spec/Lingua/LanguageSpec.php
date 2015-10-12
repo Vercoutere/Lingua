@@ -22,11 +22,19 @@ class LanguageSpec extends ObjectBehavior
 
         $language = $this->getLanguageByName('Zhuang');
         $this->checkLanguageArray($language);
+
+        // Check case insensitivity
+        $language = $this->getLanguageByName('zhuAng');
+        $this->checkLanguageArray($language);
     }
 
     function it_returns_a_language_array_by_native_name() {
 
         $language = $this->getLanguageByNativeName('Vaƅcueŋƅ');
+        $this->checkLanguageArray($language);
+
+        // Check case insensitivity
+        $language = $this->getLanguageByNativeName('vaƅcueŋƅ');
         $this->checkLanguageArray($language);
     }
 
