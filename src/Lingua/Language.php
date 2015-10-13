@@ -809,4 +809,13 @@ class Language {
 
         return $arrayWithCode;
     }
+
+    /**
+     * Get all availlable languages
+     * @returns Array
+     */
+    public function getAll() {
+
+        return $this->languages;
+    }
 }
