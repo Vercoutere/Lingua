@@ -4,7 +4,6 @@
 [![Build Status](https://travis-ci.org/Vercoutere/Lingua.svg)](https://travis-ci.org/Vercoutere/Lingua)
 [![Total Downloads](https://poser.pugx.org/vercoutere/lingua/downloads)](https://packagist.org/packages/vercoutere/lingua)
 [![License](https://poser.pugx.org/vercoutere/lingua/license)](https://packagist.org/packages/vercoutere/lingua)
-[![Made in Flanders](https://img.shields.io/badge/made%20in-Flanders-yellow.svg?style=flat)]()
 
 Lingua is a simple library that links language codes to language names in both English and the corresponding language's native translation.
 
