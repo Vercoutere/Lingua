@@ -1,5 +1,6 @@
 ## Lingua language library
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 [![Build Status](https://travis-ci.org/Vercoutere/Lingua.svg)](https://travis-ci.org/Vercoutere/Lingua)
 [![Total Downloads](https://poser.pugx.org/vercoutere/lingua/downloads)](https://packagist.org/packages/vercoutere/lingua)
 [![License](https://poser.pugx.org/vercoutere/lingua/license)](https://packagist.org/packages/vercoutere/lingua)
